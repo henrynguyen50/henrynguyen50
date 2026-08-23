@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Animated Typing Header -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&pause=1000&color=FF79C6&center=true&vCenter=true&width=600&lines=full-stack+%2B+ai+inference+engineer;high-performance+ai+systems;building+agentsmark+%26+cool+stuff;utd+swe+'27+%E2%80%A2+aws+certified" alt="Header Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&pause=1000&color=FF79C6&center=true&vCenter=true&width=600&lines=full-stack-engineer;high-performance+ai+systems;building+agentsmark+%26+cool+stuff;utd+swe+'27+%E2%80%A2+aws+certified" alt="Header Typing SVG" />
 
   <br />
 
@@ -9,7 +9,6 @@
 
   <p align="center">
     <b>Software Engineering @ UT Dallas ('27)</b> • <b>AWS Certified Solutions Architect</b><br />
-    <i>Building high-throughput data pipelines, low-latency AI inference systems, AI agents & full-stack web apps.</i>
   </p>
 
   <p align="center">
@@ -34,7 +33,7 @@
 
 - 🏫 **University**: B.S. in Software Engineering @ **University of Texas at Dallas** (GPA: 3.4)
 - ☁️ **Certification**: **AWS Certified Solutions Architect – Associate**
-- 🛠️ **Current Focus**: Scaling low-latency AI inference pipelines, streaming AI agent architectures & high-performance ETL workflows.
+- 🛠️ **Current Focus**: AI Inference and infrastructure.
 
 ---
 
