@@ -1,15 +1,15 @@
 <div align="center">
 
-  <!-- Catboy / Eboy Animated Typing Header -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&pause=1000&color=FF79C6&center=true&vCenter=true&width=600&lines=nyan~+%2F*+henry+nguyen+*%2F;full-stack+%2B+ai+systems+engineer;building+agentsmark+%26+cool+stuff;utd+swe+'27+%E2%80%A2+aws+certified;catboy+%2B+eboy+coder+vibes+%E0%B9%9F%E0 meow%E0%B9%9F" alt="Header Typing SVG" />
+  <!-- Animated Typing Header -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&pause=1000&color=FF79C6&center=true&vCenter=true&width=600&lines=full-stack+%2B+ai+inference+engineer;high-performance+ai+systems;building+agentsmark+%26+cool+stuff;utd+swe+'27+%E2%80%A2+aws+certified" alt="Header Typing SVG" />
 
   <br />
 
-  <h1>🖤 ฅ^•ﻌ•^ฅ hi, i'm henry! 🐾 ✨</h1>
+  <h1>Hi, I'm Henry! 👋</h1>
 
   <p align="center">
     <b>Software Engineering @ UT Dallas ('27)</b> • <b>AWS Certified Solutions Architect</b><br />
-    <i>Building high-throughput data pipelines, AI agents, full-stack web apps & retro aesthetics.</i>
+    <i>Building high-throughput data pipelines, low-latency AI inference systems, AI agents & full-stack web apps.</i>
   </p>
 
   <p align="center">
@@ -30,25 +30,15 @@
 
 ---
 
-### ⛓️ /* ฅ^•ﻌ•^ฅ about me */
-
-```archive
-  /\_/\  
- ( o.o )  nyan~ welcome to my github profile!
-  > ^ <   i'm a full-stack & AI software engineer who loves low-latency systems,
-          cool AI agent workflows, and retro/eboy aesthetic designs.
-```
+### About Me
 
 - 🏫 **University**: B.S. in Software Engineering @ **University of Texas at Dallas** (GPA: 3.4)
 - ☁️ **Certification**: **AWS Certified Solutions Architect – Associate**
-- 🛠️ **Current Focus**: Scaling AI agent streaming architectures & high-performance ETL pipelines.
-- 🎧 **Vibe**: E-boy dark UI, hardstyle/synthwave beats, retro Windows XP/N64 aesthetics & cat ears 🐾
+- 🛠️ **Current Focus**: Scaling low-latency AI inference pipelines, streaming AI agent architectures & high-performance ETL workflows.
 
 ---
 
-### 📜 /* 📄 resume spotlight */ ⛓️
-
-> 💡 **Looking for my full resume?** Check out [**HenryNguyenResumeSWE08.pdf**](./Downloads/HenryNguyenResumeSWE08.pdf) or view the summary below!
+### Work Experience
 
 <details open>
 <summary><b>💼 Work Experience (Click to collapse/expand)</b></summary>
@@ -70,7 +60,7 @@
 
 ---
 
-### 🛠️ /* ⚡ tech stack & skills */
+### Tech Stack & Skills
 
 <table>
   <tr>
@@ -100,6 +90,7 @@
     <td align="center"><b>Backend & AI</b></td>
     <td>
       <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+      <img src="https://img.shields.io/badge/AI_Inference-7F52FF?style=for-the-badge&logo=openai&logoColor=white" />
       <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
       <img src="https://img.shields.io/badge/Google_Gemini_AI-8E44AD?style=for-the-badge&logo=googlegemini&logoColor=white" />
       <img src="https://img.shields.io/badge/RAG_Pipelines-ff79c6?style=for-the-badge&logo=openai&logoColor=white" />
@@ -122,10 +113,10 @@
 
 ---
 
-### 🐾 /* 🎮 featured projects */ ⚔️
+### Featured Projects
 
 #### 🎰 [AgentSmark — AI Sports Streaming & Gambling Simulator](https://github.com/henrynguyen50)
-> *Full-stack AI streaming discovery platform & gamified sports betting engine with a retro Windows XP / N64 theme.*
+> *Full-stack AI streaming discovery platform & gamified sports betting engine with low-latency AI inference.*
 - **Tech**: React 19, FastAPI, Gemini LLM Tool Calling, PostgreSQL, Docker, AWS Lightsail, Nginx.
 - ⚡ Natural language LLM tool calling converts user prompts into verified stream embeds in under 10 seconds.
 - 🔄 Background cron jobs automatically normalize live sports metadata and persist low-latency updates.
@@ -155,7 +146,7 @@
 
 ---
 
-### 📊 /* 🖤 stats & activity */ 🐾
+### GitHub Stats & Activity
 
 <div align="center">
   <img height="185em" src="https://github-readme-stats.vercel.app/api?username=henrynguyen50&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&title_color=ff79c6&text_color=f8f8f2&icon_color=bd93f9&bg_color=1e1e2e" alt="Henry's GitHub Stats" />
@@ -171,5 +162,6 @@
 ---
 
 <div align="center">
-  <sub>ฅ^•ﻌ•^ฅ built with 🖤 & 💻 by <a href="https://github.com/henrynguyen50"><b>@henrynguyen50</b></a></sub>
+  <sub>Built with 💻 by <a href="https://github.com/henrynguyen50"><b>@henrynguyen50</b></a></sub>
 </div>
+
