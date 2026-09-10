@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 150" width="100%" height="150">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080e18"/>
+      <stop offset="100%" stop-color="#03060a"/>
+    </linearGradient>
+
+    <linearGradient id="cyanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="100%" stop-color="#39ff14"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .t-title { font-family: 'Impact', 'Arial Black', sans-serif; font-size: 13px; fill: #00f0ff; letter-spacing: 2px; text-transform: uppercase; }
+    .t-label { font-family: 'Segoe UI', sans-serif; font-size: 10px; font-weight: 700; fill: #64748b; letter-spacing: 1.5px; text-transform: uppercase; }
+    .t-val { font-family: 'Segoe UI', sans-serif; font-size: 14px; font-weight: 800; fill: #ffffff; letter-spacing: 0.5px; }
+    .t-sub { font-family: 'Segoe UI', sans-serif; font-size: 11px; font-weight: 600; fill: #94a3b8; }
+    .chip { font-family: 'Segoe UI', sans-serif; font-size: 9.5px; font-weight: 800; }
+  </style>
+
+  <!-- Frame Background -->
+  <rect x="2" y="2" width="846" height="146" rx="6" fill="url(#cardGrad)" stroke="#16263b" stroke-width="1.5"/>
+
+  <!-- Top Accent Stripe -->
+  <path d="M 2 4 L 848 4" stroke="url(#cyanLine)" stroke-width="2.5" filter="url(#glow)"/>
+
+  <!-- Section 1: Career Status -->
+  <g transform="translate(25, 24)">
+    <text x="0" y="0" class="t-title">DRIVER PROFILE TELEMETRY</text>
+    <text x="0" y="24" class="t-label">CURRENT DIVISION</text>
+    <text x="0" y="42" class="t-val" fill="#39ff14">UT DALLAS // SWE '27</text>
+    <text x="0" y="58" class="t-sub">GPA: 3.4 • Expected May 2027</text>
+    <text x="0" y="78" class="t-label">CLOUD CERTIFICATION</text>
+    <text x="0" y="96" class="t-val" fill="#ff9900">AWS SOLUTIONS ARCHITECT</text>
+  </g>
+
+  <!-- Divider 1 -->
+  <line x1="285" y1="20" x2="285" y2="135" stroke="#122438" stroke-width="1.5"/>
+
+  <!-- Section 2: Production Performance Track Record -->
+  <g transform="translate(310, 24)">
+    <text x="0" y="0" class="t-title">PRODUCTION PERFORMANCE DELTAS</text>
+    
+    <g transform="translate(0, 18)">
+      <rect x="0" y="0" width="115" height="42" rx="4" fill="#040910" stroke="#122336" stroke-width="1"/>
+      <text x="10" y="16" class="chip" fill="#00f0ff">AWS S3 PUBLISH</text>
+      <text x="10" y="34" font-family="'Impact', sans-serif" font-size="16" fill="#39ff14">-95% TIME</text>
+    </g>
+
+    <g transform="translate(125, 18)">
+      <rect x="0" y="0" width="115" height="42" rx="4" fill="#040910" stroke="#122336" stroke-width="1"/>
+      <text x="10" y="16" class="chip" fill="#00f0ff">CI/CD PIPELINE</text>
+      <text x="10" y="34" font-family="'Impact', sans-serif" font-size="16" fill="#39ff14">-65% RUNTIME</text>
+    </g>
+
+    <g transform="translate(0, 68)">
+      <rect x="0" y="0" width="115" height="42" rx="4" fill="#040910" stroke="#122336" stroke-width="1"/>
+      <text x="10" y="16" class="chip" fill="#00f0ff">DAILY JSON FEED</text>
+      <text x="10" y="34" font-family="'Impact', sans-serif" font-size="16" fill="#00f0ff">30+ GB / DAY</text>
+    </g>
+
+    <g transform="translate(125, 68)">
+      <rect x="0" y="0" width="115" height="42" rx="4" fill="#040910" stroke="#122336" stroke-width="1"/>
+      <text x="10" y="16" class="chip" fill="#00f0ff">NIFI FILE ROUTER</text>
+      <text x="10" y="34" font-family="'Impact', sans-serif" font-size="16" fill="#00f0ff">30,000+ / DAY</text>
+    </g>
+  </g>
+
+  <!-- Divider 2 -->
+  <line x1="575" y1="20" x2="575" y2="135" stroke="#122438" stroke-width="1.5"/>
+
+  <!-- Section 3: Engineering Disciplines -->
+  <g transform="translate(600, 24)">
+    <text x="0" y="0" class="t-title">SYSTEM SPECIALTIES</text>
+    
+    <g transform="translate(0, 22)">
+      <circle cx="4" cy="-3" r="3" fill="#00f0ff"/>
+      <text x="14" y="0" class="t-sub" fill="#ffffff">High-Throughput Data Ingestion</text>
+    </g>
+    <g transform="translate(0, 44)">
+      <circle cx="4" cy="-3" r="3" fill="#39ff14"/>
+      <text x="14" y="0" class="t-sub" fill="#ffffff">Low-Latency AI Tool Calling</text>
+    </g>
+    <g transform="translate(0, 66)">
+      <circle cx="4" cy="-3" r="3" fill="#ff9900"/>
+      <text x="14" y="0" class="t-sub" fill="#ffffff">Reverse-Engineered Video Protocols</text>
+    </g>
+    <g transform="translate(0, 88)">
+      <circle cx="4" cy="-3" r="3" fill="#7000ff"/>
+      <text x="14" y="0" class="t-sub" fill="#ffffff">Automated CI/CD &amp; Cloud Infra</text>
+    </g>
+  </g>
+</svg>

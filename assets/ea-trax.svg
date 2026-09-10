@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 56" width="100%" height="56">
+  <defs>
+    <linearGradient id="traxBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#080e18"/>
+      <stop offset="50%" stop-color="#0e1726"/>
+      <stop offset="100%" stop-color="#080e18"/>
+    </linearGradient>
+
+    <linearGradient id="eqCyan" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="80%" stop-color="#39ff14"/>
+      <stop offset="100%" stop-color="#ff3b00"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes barAnim1 { 0%, 100% { height: 6px; y: 22px; } 50% { height: 26px; y: 2px; } }
+    @keyframes barAnim2 { 0%, 100% { height: 22px; y: 6px; } 50% { height: 10px; y: 18px; } }
+    @keyframes barAnim3 { 0%, 100% { height: 14px; y: 14px; } 50% { height: 28px; y: 0px; } }
+    @keyframes barAnim4 { 0%, 100% { height: 26px; y: 2px; } 50% { height: 8px; y: 20px; } }
+    @keyframes barAnim5 { 0%, 100% { height: 10px; y: 18px; } 50% { height: 24px; y: 4px; } }
+
+    .bar-1 { animation: barAnim1 0.8s ease-in-out infinite; }
+    .bar-2 { animation: barAnim2 0.65s ease-in-out infinite; }
+    .bar-3 { animation: barAnim3 0.9s ease-in-out infinite; }
+    .bar-4 { animation: barAnim4 0.75s ease-in-out infinite; }
+    .bar-5 { animation: barAnim5 0.85s ease-in-out infinite; }
+
+    .trax-badge { font-family: 'Impact', 'Arial Black', sans-serif; font-size: 13px; fill: #05080e; letter-spacing: 1.5px; }
+    .now-playing { font-family: 'Segoe UI', sans-serif; font-size: 10px; font-weight: 800; fill: #00f0ff; letter-spacing: 2px; text-transform: uppercase; }
+    .song-title { font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; font-size: 13.5px; font-weight: 800; fill: #ffffff; letter-spacing: 0.5px; }
+    .song-artist { font-family: 'Segoe UI', sans-serif; font-size: 13px; font-weight: 600; fill: #94a3b8; }
+    .soundtrack-tag { font-family: 'Segoe UI', sans-serif; font-size: 10px; font-weight: 700; fill: #39ff14; letter-spacing: 1px; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="846" height="52" rx="6" fill="url(#traxBg)" stroke="#1a273b" stroke-width="1.5"/>
+  <rect x="2" y="2" width="6" height="52" rx="2" fill="#00f0ff" filter="url(#glow)"/>
+
+  <!-- Left: EA TRAX Icon / Pill -->
+  <g transform="translate(20, 14)">
+    <path d="M 0 0 L 88 0 L 78 28 L -10 28 Z" fill="#00f0ff" filter="url(#glow)"/>
+    <text x="6" y="19" class="trax-badge">EA TRAX</text>
+  </g>
+
+  <!-- Animated Sound Equalizer Bars -->
+  <g transform="translate(125, 14)">
+    <rect class="bar-1" x="0" y="8" width="3.5" height="18" fill="url(#eqCyan)" rx="1"/>
+    <rect class="bar-2" x="6" y="4" width="3.5" height="22" fill="url(#eqCyan)" rx="1"/>
+    <rect class="bar-3" x="12" y="12" width="3.5" height="14" fill="url(#eqCyan)" rx="1"/>
+    <rect class="bar-4" x="18" y="2" width="3.5" height="26" fill="url(#eqCyan)" rx="1"/>
+    <rect class="bar-5" x="24" y="10" width="3.5" height="18" fill="url(#eqCyan)" rx="1"/>
+    <rect class="bar-2" x="30" y="6" width="3.5" height="22" fill="url(#eqCyan)" rx="1"/>
+    <rect class="bar-4" x="36" y="14" width="3.5" height="14" fill="url(#eqCyan)" rx="1"/>
+    <rect class="bar-1" x="42" y="4" width="3.5" height="24" fill="url(#eqCyan)" rx="1"/>
+  </g>
+
+  <!-- Track Information -->
+  <g transform="translate(185, 22)">
+    <text x="0" y="0" class="now-playing">▶ NOW PLAYING // NIGHT DRIVE</text>
+    <text x="0" y="19" class="song-title">Riders on the Storm <tspan class="song-artist">(Fredwreck Remix) — Snoop Dogg ft. The Doors</tspan></text>
+  </g>
+
+  <!-- Right: NFSU2 OST Tag -->
+  <g transform="translate(710, 31)">
+    <rect x="-10" y="-14" width="130" height="22" rx="4" fill="#09141f" stroke="#162e44" stroke-width="1"/>
+    <text x="0" y="1" class="soundtrack-tag">NFSU2 ORIGINAL OST</text>
+  </g>
+</svg>

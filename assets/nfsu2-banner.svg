@@ -1,0 +1,252 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 270" width="100%" height="270">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05080f"/>
+      <stop offset="50%" stop-color="#09101a"/>
+      <stop offset="100%" stop-color="#020407"/>
+    </linearGradient>
+
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="100%" stop-color="#7000ff"/>
+    </linearGradient>
+
+    <linearGradient id="neonGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39ff14"/>
+      <stop offset="100%" stop-color="#00ffcc"/>
+    </linearGradient>
+
+    <linearGradient id="nitroOrange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff3b00"/>
+      <stop offset="100%" stop-color="#ff9900"/>
+    </linearGradient>
+
+    <linearGradient id="carbonLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.8"/>
+      <stop offset="30%" stop-color="#00f0ff" stop-opacity="0.2"/>
+      <stop offset="70%" stop-color="#39ff14" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#39ff14" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Carbon Fiber Pattern -->
+    <pattern id="carbon" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#060a10"/>
+      <polygon points="0,0 3,0 0,3" fill="#0b131e"/>
+      <polygon points="3,3 6,3 3,6" fill="#0b131e"/>
+      <polygon points="3,0 6,0 6,3" fill="#080e17"/>
+      <polygon points="0,3 3,3 0,6" fill="#080e17"/>
+    </pattern>
+
+    <!-- Glowing Filters -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowGreen" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowOrange" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .hud-label { font-family: 'Segoe UI', 'Impact', 'Trebuchet MS', sans-serif; font-size: 11px; fill: #6e8299; letter-spacing: 2px; font-weight: 700; text-transform: uppercase; }
+    .hud-val { font-family: 'Segoe UI', 'Impact', 'Trebuchet MS', sans-serif; font-size: 13px; fill: #00f0ff; letter-spacing: 1.5px; font-weight: 800; }
+    .hud-val-green { font-family: 'Segoe UI', 'Impact', 'Trebuchet MS', sans-serif; font-size: 13px; fill: #39ff14; letter-spacing: 1.5px; font-weight: 800; }
+    .hud-val-orange { font-family: 'Segoe UI', 'Impact', 'Trebuchet MS', sans-serif; font-size: 13px; fill: #ff9900; letter-spacing: 1.5px; font-weight: 800; }
+    
+    .title-main {
+      font-family: 'Impact', 'Arial Black', 'Trebuchet MS', sans-serif;
+      font-size: 58px;
+      font-style: italic;
+      font-weight: 900;
+      letter-spacing: 4px;
+      fill: #ffffff;
+      text-transform: uppercase;
+    }
+    
+    .title-role {
+      font-family: 'Impact', 'Arial Black', 'Trebuchet MS', sans-serif;
+      font-size: 25px;
+      font-style: italic;
+      font-weight: 900;
+      letter-spacing: 6px;
+      fill: url(#neonGreen);
+      text-transform: uppercase;
+    }
+
+    .subtitle {
+      font-family: 'Segoe UI', 'Impact', sans-serif;
+      font-size: 11.5px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      fill: #94a3b8;
+      text-transform: uppercase;
+    }
+
+    @keyframes nosPulse {
+      0%, 100% { opacity: 0.85; filter: drop-shadow(0 0 6px #00f0ff); }
+      50% { opacity: 1; filter: drop-shadow(0 0 16px #00f0ff); }
+    }
+
+    @keyframes shiftFlash {
+      0%, 80%, 100% { fill: #1a2332; }
+      85%, 95% { fill: #ff3b00; filter: drop-shadow(0 0 10px #ff3b00); }
+    }
+
+    @keyframes scanline {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(270px); }
+    }
+
+    .pulse-nos { animation: nosPulse 2s ease-in-out infinite; }
+    .shift-light { animation: shiftFlash 1.8s infinite; }
+  </style>
+
+  <!-- Base Background -->
+  <rect width="900" height="270" fill="url(#bgGrad)" rx="8"/>
+  <rect width="900" height="270" fill="url(#carbon)" opacity="0.65" rx="8"/>
+
+  <!-- Outer Neon Racing Border with Chiseled Corners -->
+  <path d="M 25 10 L 875 10 L 890 25 L 890 245 L 875 260 L 25 260 L 10 245 L 10 25 Z" 
+        fill="none" stroke="url(#carbonLine)" stroke-width="2"/>
+  
+  <!-- Corner Tech Brackets -->
+  <path d="M 8 35 L 8 12 L 35 12" fill="none" stroke="#00f0ff" stroke-width="3" filter="url(#glowCyan)"/>
+  <path d="M 865 12 L 892 12 L 892 35" fill="none" stroke="#39ff14" stroke-width="3" filter="url(#glowGreen)"/>
+  <path d="M 8 235 L 8 258 L 35 258" fill="none" stroke="#00f0ff" stroke-width="3" filter="url(#glowCyan)"/>
+  <path d="M 865 258 L 892 258 L 892 235" fill="none" stroke="#39ff14" stroke-width="3" filter="url(#glowGreen)"/>
+
+  <!-- Speed Chevron Accents (NFSU2 Style) -->
+  <g opacity="0.25">
+    <path d="M 720 30 L 750 30 L 730 110 L 700 110 Z" fill="#00f0ff"/>
+    <path d="M 745 30 L 775 30 L 755 110 L 725 110 Z" fill="#00f0ff"/>
+    <path d="M 770 30 L 800 30 L 780 110 L 750 110 Z" fill="#39ff14"/>
+    <path d="M 795 30 L 825 30 L 805 110 L 775 110 Z" fill="#39ff14"/>
+  </g>
+
+  <!-- TOP HUD BAR: Rep, Bank, GPS Location, Visual Rating -->
+  <g transform="translate(30, 24)">
+    <!-- HUD background plate -->
+    <path d="M 0 0 L 840 0 L 830 32 L 10 32 Z" fill="#060c14" stroke="#162233" stroke-width="1.5"/>
+    
+    <!-- GPS / Location -->
+    <text x="25" y="21" class="hud-label">GPS:</text>
+    <text x="60" y="21" class="hud-val">DALLAS, TX</text>
+
+    <!-- Divider -->
+    <line x1="280" y1="6" x2="274" y2="26" stroke="#1e2e42" stroke-width="2"/>
+
+    <!-- Bank Account -->
+    <text x="295" y="21" class="hud-label">BANK:</text>
+    <text x="345" y="21" class="hud-val-green">$3,400,000</text>
+
+    <!-- Divider -->
+    <line x1="455" y1="6" x2="449" y2="26" stroke="#1e2e42" stroke-width="2"/>
+
+    <!-- Rep Points / Stage -->
+    <text x="470" y="21" class="hud-label">STATUS:</text>
+    <text x="530" y="21" class="hud-val">AI INFERENCE</text>
+
+    <!-- Divider -->
+    <line x1="655" y1="6" x2="649" y2="26" stroke="#1e2e42" stroke-width="2"/>
+
+    <!-- Visual Rating -->
+    <text x="670" y="21" class="hud-label">STYLE:</text>
+    <text x="725" y="21" class="hud-val-orange">10.0 ★ STAR</text>
+  </g>
+
+  <!-- MAIN BRANDING / NFSU2 LOGO SECTION -->
+  <g transform="translate(45, 95)">
+    <!-- Slanted Speed Background Ribbon -->
+    <polygon points="0,35 620,35 595,115 -25,115" fill="#08101a" opacity="0.8" stroke="#00f0ff" stroke-width="0.8" stroke-opacity="0.3"/>
+    
+    <!-- Underglow Accent Line -->
+    <line x1="-20" y1="115" x2="595" y2="115" stroke="url(#neonCyan)" stroke-width="3" filter="url(#glowCyan)"/>
+
+    <!-- Small Tagline above Name -->
+    <g transform="translate(0, 20)">
+      <rect x="0" y="-14" width="190" height="18" fill="#00f0ff" opacity="0.15" rx="2"/>
+      <text x="8" y="0" font-family="'Impact', sans-serif" font-size="11" font-weight="bold" fill="#00f0ff" letter-spacing="3" text-transform="uppercase">
+        ► CAREER PROFILE // SWE
+      </text>
+    </g>
+
+    <!-- Driver Name: HENRY NGUYEN -->
+    <text x="0" y="75" class="title-main" filter="url(#glowCyan)">HENRY NGUYEN</text>
+    <text x="0" y="75" class="title-main">HENRY NGUYEN</text>
+
+    <!-- Role Subtitle -->
+    <g transform="translate(4, 105)">
+      <text x="0" y="0" class="title-role">SOFTWARE ENGINEER</text>
+    </g>
+  </g>
+
+  <!-- RIGHT SIDE: TACHOMETER / NITROUS HUD DISPLAY -->
+  <g transform="translate(680, 85)">
+    <!-- Outer Tach Housing -->
+    <rect x="0" y="0" width="185" height="125" rx="6" fill="#070c14" stroke="#162338" stroke-width="1.5"/>
+    <path d="M 0 0 L 60 0 L 45 20 L 0 20 Z" fill="#00f0ff" opacity="0.2"/>
+    <text x="12" y="14" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="900" fill="#00f0ff" letter-spacing="1.5">SPEC-V // ECU</text>
+
+    <!-- Shift Light -->
+    <circle cx="160" cy="14" r="5" class="shift-light"/>
+
+    <!-- Speed / Performance Bars -->
+    <g transform="translate(15, 38)">
+      <!-- ACCELERATION (Data Pipelines) -->
+      <text x="0" y="0" class="hud-label" font-size="8.5">ACCEL (DATA)</text>
+      <rect x="75" y="-8" width="85" height="7" fill="#101826" rx="1"/>
+      <rect x="75" y="-8" width="80" height="7" fill="#00f0ff" rx="1" filter="url(#glowCyan)"/>
+
+      <!-- TOP SPEED (FastAPI / Latency) -->
+      <text x="0" y="18" class="hud-label" font-size="8.5">SPEED (API)</text>
+      <rect x="75" y="10" width="85" height="7" fill="#101826" rx="1"/>
+      <rect x="75" y="10" width="82" height="7" fill="#39ff14" rx="1" filter="url(#glowGreen)"/>
+
+      <!-- HANDLING (Full-Stack) -->
+      <text x="0" y="36" class="hud-label" font-size="8.5">HANDLING (UI)</text>
+      <rect x="75" y="28" width="85" height="7" fill="#101826" rx="1"/>
+      <rect x="75" y="28" width="79" height="7" fill="#00f0ff" rx="1"/>
+
+      <!-- NOS BOOST (AWS Cloud) -->
+      <text x="0" y="54" class="hud-label" font-size="8.5" fill="#ff9900">N2O (AWS S3)</text>
+      <rect x="75" y="46" width="85" height="7" fill="#101826" rx="1"/>
+      <rect x="75" y="46" width="85" height="7" fill="url(#nitroOrange)" rx="1" class="pulse-nos"/>
+    </g>
+
+    <!-- Nitrous Purge Status -->
+    <g transform="translate(15, 112)">
+      <text x="0" y="0" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="900" fill="#39ff14" letter-spacing="1">
+        ● PURGE READY: 95% S3 CUT
+      </text>
+    </g>
+  </g>
+
+  <!-- BOTTOM STATUS / QUICK SPECS BAR -->
+  <g transform="translate(30, 230)">
+    <rect x="0" y="0" width="840" height="24" fill="#050a12" stroke="#121b29" stroke-width="1" rx="3"/>
+    
+    <text x="20" y="16" class="subtitle">
+      <tspan fill="#00f0ff">◆ VEHICLE:</tspan> 2026 HONDA CIVIC  
+      <tspan fill="#39ff14" dx="15">◆ FOCUS:</tspan> HIGH-THROUGHPUT BIG DATA &amp; AI INFERENCE  
+      <tspan fill="#ff9900" dx="15">◆ SPONSOR:</tspan> AWS SOLUTIONS ARCHITECT
+    </text>
+  </g>
+</svg>
