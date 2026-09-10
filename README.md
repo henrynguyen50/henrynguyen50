@@ -127,10 +127,26 @@ CREDENTIALS: AWS Certified Solutions Architect – Associate
 <br />
 
 ### Software Engineering Intern | Enlighten Texas
-`Incoming / May 2026 – August 2026` • `Texas` • `[Placeholder]`
+`May 2026 – August 2026` • `Texas` • `Large-Scale Data Engineering`
 
-> *[Placeholder]* Incoming Software Engineering Intern. Focus areas will include large-scale distributed data pipelines, Kotlin parsing algorithms, and cloud publishing optimization on AWS.
+<p>
+  <a href="#" target="_blank">
+    <img src="https://img.shields.io/badge/Presentation_Deck-Slides_Link_(Placeholder)-00f0ff?style=for-the-badge&logo=googleslides&logoColor=black" alt="Presentation Slides Placeholder" />
+  </a>
+</p>
 
+> Developed, tested, and deployed production software and data pipelines within an Agile 10-engineer team across the full SDLC to enhance large-scale data processing speed and reliability.
+
+- [x] **30+ GB/Day Malformed JSON Parser**: Built production **Kotlin** (OOP) parsers utilizing a one-pass two-pointer algorithm to reliably extract and normalize fields from 30+ GB of malformed daily log files.
+- [x] **Automated 30,000+ File/Day Router**: Engineered a custom **Apache NiFi** and **Groovy** processor using `HashMap` lookups to classify, track, and route 30,000+ files/day by feed name directly to target parsers.
+- [x] **Automated YYMM.patch Release Versioning**: Standardized release versioning with **Git** and CI/CD pipelines to auto-generate `YYMM.patch` tags, eliminating manual version management overhead.
+- [x] **65%+ CI/CD Pipeline Runtime Reduction**: Optimized **Docker** workflows and pipeline caching, reducing dev-branch build runtimes from 30+ minutes down to ~10 minutes.
+- [x] **95% AWS S3 Publishing Optimization**: Overhauled production publishing to **AWS S3**, slashing deployment time from ~10 minutes to ~30 seconds while eliminating data redundancy.
+
+```text
+[STACK]: Kotlin • Apache NiFi • Groovy • AWS S3 • Docker • Git CI/CD • OOP • Agile SDLC
+[IMPACT]: S3 Publish: -95% (10m → 30s) | CI/CD Runtime: -65% (30m → 10m) | Daily Intake: 30+ GB & 30,000+ files
+```
 <br />
 
 ### Software Engineering Intern | NerdsToGo
