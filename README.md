@@ -127,29 +127,30 @@ CREDENTIALS: AWS Certified Solutions Architect – Associate
 <br />
 
 ### Software Engineering Intern | Enlighten Texas
-`May 2026 – August 2026` • `Texas` • `High-Performance Data Engineering`
+`Incoming / May 2026 – August 2026` • `Texas` • `[Placeholder]`
 
-> Embedded in an Agile 10-engineer squad, optimizing large-scale enterprise data pipelines and high-velocity processing engines across the full SDLC.
-
-- [x] **30+ GB/Day Malformed JSON Parser**: Architected production data parsers using **Kotlin** and OOP, executing a custom one-pass two-pointer algorithm to reliably extract and normalize fields from 30+ GB of malformed log files daily.
-- [x] **Automated 30,000+ File/Day Router**: Engineered a custom **Apache NiFi** and **Groovy** processor utilizing high-efficiency `HashMap` indexing to classify, track, and route 30,000+ files per day by feed name directly to target parsers.
-- [x] **Standardized YYMM.patch Versioning Engine**: Automated release versioning via **Git** and CI/CD workflows, generating automated `YYMM.patch` release tags and permanently eliminating manual version management overhead.
-- [x] **65%+ CI/CD Pipeline Acceleration**: Overhauled **Docker** DevOps workflows by decomposing two bloated monolithic pipeline jobs into decoupled stages, slashing dev-branch pipeline runtimes from 30+ minutes down to **~10 minutes**.
-- [x] **95% S3 Publishing Optimization**: Re-engineered production deployment pipelines to **AWS S3** cloud infrastructure, accelerating publishing cycles from **~10 minutes down to ~30 seconds**.
-
-```text
-[STACK]: Kotlin • Apache NiFi • Groovy • AWS S3 • Docker • CI/CD • OOP • Agile SDLC
-[IMPACT]: S3 Publish: -95% | CI/CD Runtime: -65% | Daily Intake: 30+ GB & 30,000+ files
-```
+> *[Placeholder]* Incoming Software Engineering Intern. Focus areas will include large-scale distributed data pipelines, Kotlin parsing algorithms, and cloud publishing optimization on AWS.
 
 <br />
 
 ### Software Engineering Intern | NerdsToGo
 `May 2025 – August 2025` • `Plano, TX` • `Automation & Systems Integration`
 
+<p>
+  <a href="https://chromewebstore.google.com/detail/connectwise-company-autof/cnfcgoakbimccopoicidkceoddfakdae?authuser=1&hl=en" target="_blank">
+    <img src="https://img.shields.io/badge/Chrome_Web_Store-ConnectWise_Autofill_Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome Web Store" />
+  </a>
+  <a href="https://github.com/henrynguyen50/ClientCleanup" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-ClientCleanup_Pandas_Script-181825?style=for-the-badge&logo=github&logoColor=white" alt="ClientCleanup Script" />
+  </a>
+  <a href="https://github.com/henrynguyen50/ConnectWiseAutofill" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Extension_Source_Repo-181825?style=for-the-badge&logo=github&logoColor=white" alt="Extension Repo" />
+  </a>
+</p>
+
 > Engineered internal automation tools and streamlined technician operations across client management and support infrastructure.
 
-- [x] **ConnectWise Automation Chrome Extension**: Built an automated browser extension using **JavaScript, HTML, and CSS** that streamlined technician ticketing, slashing manual data entry by **80%**, eliminating ticket creation errors, and saving **3+ hours every week**.
+- [x] **ConnectWise Automation Chrome Extension**: Built an automated browser extension in **JavaScript, HTML, and CSS** that streamlined technician ticketing, slashing manual data entry by **80%**, eliminating ticket creation errors, and saving **3+ hours every week**.
 - [x] **ETL Client Pipeline (Python / Pandas / SQL)**: Architected an automated data extraction and transformation workflow in **Python, SQL, and Pandas** to normalize client records, shrinking monthly account follow-ups from **1 full day down to just a few hours**.
 - [x] **Workflow Modernization**: Replaced legacy manual IT routines with automated background scripts to eliminate operational friction and data sync delays.
 
@@ -172,7 +173,14 @@ CREDENTIALS: AWS Certified Solutions Architect – Associate
 <br />
 
 ### [AgentSmark — AI Streaming Assistant & Live Sports Engine](https://systemfiguredout.cc)
-`October 2025` • `Production Live Build (100+ Active Users)` • **Live Demo:** [systemfiguredout.cc](https://systemfiguredout.cc)  
+`October 2025` • `Production Live Build (100+ Active Users)`
+
+<p>
+  <a href="https://systemfiguredout.cc" target="_blank">
+    <img src="https://img.shields.io/badge/Live_Demo-systemfiguredout.cc-00f0ff?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Live Demo" />
+  </a>
+</p>
+
 `Tech: React, TypeScript, FastAPI, Google Gemini, PostgreSQL, Docker, AWS Lightsail, HLS/DASH`
 
 > Full-stack live sports and media discovery engine integrating low-latency LLM tool calling, reverse-engineered streaming protocols, and real-time data pipelines.
@@ -197,8 +205,21 @@ CREDENTIALS: AWS Certified Solutions Architect – Associate
 
 <br />
 
-### WhyKnot — Market Analysis Platform (HackPrinceton)
-`November 2025` • `HackPrinceton Build`  
+### [WhyKnot — Market Analysis Platform (HackPrinceton)](https://devpost.com/software/whyknot)
+`November 2025` • `HackPrinceton Build`
+
+<p>
+  <a href="https://devpost.com/software/whyknot" target="_blank">
+    <img src="https://img.shields.io/badge/Devpost-WhyKnot-003E54?style=for-the-badge&logo=devpost&logoColor=white" alt="Devpost" />
+  </a>
+  <a href="https://github.com/henrynguyen50/whyknot-frontend" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-whyknot--frontend-181825?style=for-the-badge&logo=github&logoColor=white" alt="Frontend Repo" />
+  </a>
+  <a href="https://github.com/henrynguyen50/food-heatmap" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-food--heatmap-181825?style=for-the-badge&logo=github&logoColor=white" alt="Backend Repo" />
+  </a>
+</p>
+
 `Tech: Next.js, React, FastAPI, MongoDB, Knot API, Leaflet`
 
 > Geospatial market intelligence engine translating real-world restaurant transaction data into actionable expansion opportunities.
@@ -213,8 +234,15 @@ CREDENTIALS: AWS Certified Solutions Architect – Associate
 
 <br />
 
-### Team Impact Connection Platform (JPMorgan Code for Good)
-`October 2025` • `JPMorgan Code for Good Hackathon`  
+### [Team Impact Connection Platform (JPMorgan Code for Good)](https://github.com/henrynguyen50/Team-13)
+`October 2025` • `JPMorgan Code for Good Hackathon`
+
+<p>
+  <a href="https://github.com/henrynguyen50/Team-13" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-henrynguyen50%2FTeam--13-181825?style=for-the-badge&logo=github&logoColor=white" alt="Team-13 Repo" />
+  </a>
+</p>
+
 `Tech: React, FastAPI, Google Gemini AI, Python REST APIs`
 
 > Non-profit matching platform linking participating colleges and athletic programs to children with serious illnesses.

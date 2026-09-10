@@ -48,30 +48,30 @@
 
   <!-- Section 2: Production Performance Track Record -->
   <g transform="translate(310, 24)">
-    <text x="0" y="0" class="t-title">PRODUCTION PERFORMANCE DELTAS</text>
+    <text x="0" y="0" class="t-title">PRODUCTION SYSTEM METRICS</text>
     
     <g transform="translate(0, 18)">
       <rect x="0" y="0" width="115" height="42" rx="4" fill="#040910" stroke="#122336" stroke-width="1"/>
-      <text x="10" y="16" class="chip" fill="#00f0ff">AWS S3 PUBLISH</text>
-      <text x="10" y="34" font-family="'Impact', sans-serif" font-size="16" fill="#39ff14">-95% TIME</text>
+      <text x="10" y="16" class="chip" fill="#00f0ff">CONNECTWISE EXT</text>
+      <text x="10" y="34" font-family="'Impact', sans-serif" font-size="16" fill="#39ff14">-80% ENTRY</text>
     </g>
 
     <g transform="translate(125, 18)">
       <rect x="0" y="0" width="115" height="42" rx="4" fill="#040910" stroke="#122336" stroke-width="1"/>
-      <text x="10" y="16" class="chip" fill="#00f0ff">CI/CD PIPELINE</text>
-      <text x="10" y="34" font-family="'Impact', sans-serif" font-size="16" fill="#39ff14">-65% RUNTIME</text>
+      <text x="10" y="16" class="chip" fill="#00f0ff">AGENTSMARK</text>
+      <text x="10" y="34" font-family="'Impact', sans-serif" font-size="15" fill="#39ff14">AI STREAMING</text>
     </g>
 
     <g transform="translate(0, 68)">
       <rect x="0" y="0" width="115" height="42" rx="4" fill="#040910" stroke="#122336" stroke-width="1"/>
-      <text x="10" y="16" class="chip" fill="#00f0ff">DAILY JSON FEED</text>
-      <text x="10" y="34" font-family="'Impact', sans-serif" font-size="16" fill="#00f0ff">30+ GB / DAY</text>
+      <text x="10" y="16" class="chip" fill="#00f0ff">JPM IMPACT</text>
+      <text x="10" y="34" font-family="'Impact', sans-serif" font-size="16" fill="#00f0ff">10x OUTREACH</text>
     </g>
 
     <g transform="translate(125, 68)">
       <rect x="0" y="0" width="115" height="42" rx="4" fill="#040910" stroke="#122336" stroke-width="1"/>
-      <text x="10" y="16" class="chip" fill="#00f0ff">NIFI FILE ROUTER</text>
-      <text x="10" y="34" font-family="'Impact', sans-serif" font-size="16" fill="#00f0ff">30,000+ / DAY</text>
+      <text x="10" y="16" class="chip" fill="#00f0ff">WHYKNOT MAP</text>
+      <text x="10" y="34" font-family="'Impact', sans-serif" font-size="16" fill="#00f0ff">100+ VENUES</text>
     </g>
   </g>
 
