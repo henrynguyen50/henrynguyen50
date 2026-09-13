@@ -6,7 +6,7 @@
 </a>
 
 <!-- EA TRAX SOUNDTRACK WIDGET -->
-<a href="https://open.spotify.com/track/4jXF6lVf0zDqWqH8v2tY3s" target="_blank" title="Click to listen to the NFSU2 theme song on Spotify">
+<a href="https://www.youtube.com/watch?v=u7KncmJj82s" target="_blank" title="Click to listen to the NFSU2 theme song on Spotify">
   <img src="assets/ea-trax.svg" alt="EA Trax - Riders on the Storm (Fredwreck Remix) Snoop Dogg ft. The Doors" width="100%" />
 </a>
 
