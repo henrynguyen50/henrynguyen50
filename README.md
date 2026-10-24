@@ -36,6 +36,8 @@ Full-stack live-sports and media-discovery engine integrating low-latency LLM to
 
 [![AgentSmark application preview](assets/agentsmark-preview.png)](https://systemfiguredout.cc)
 
+https://github.com/user-attachments/assets/a895138e-0219-45fe-b8f4-c5a49c3a8656
+
 - Integrated Google Gemini tool calling with REST endpoints, translating natural-language queries into verified stream embeds and reducing content discovery from 1–3 minutes to under 10 seconds.
 - Reverse-engineered an obfuscated streaming protocol and built a Python backend with a custom 32-bit bitwise keystream decoder for native HLS/DASH playback.
 - Built a FastAPI service with HMAC-SHA256 signed tokens and socket-level SSRF safeguards that rewrites playlists and streams media in 64 KiB chunks.
